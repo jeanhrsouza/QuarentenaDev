@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/home.css">
+    <title>Quarentena Dev</title>
+</head>
+
+<body>
+    <a href="index.html" class="button text-white">Voltar</a>
+    <!--
+        O Criador de galinha me falou o seguinte: 
+        "Comprei 15 galinhas por 300 reias" Quanto ele pagou por cada galinha?
+
+        Maria foi a padaria e comprou 19 balas, 
+        dpois voltou a padaria e comprou mais 45. Quantas balas Maria tem agora?
+
+        Para calcular a área de uma circunferência usamos a seguinte fórmula:
+        area = pi x raio x raio. O valor de pi = 3.14, se o valor do meu raio é 2 qual a área da circunferência?
+
+    -->
+    <div class="container">
+        <h1>Aprendendo a utilizar o alert()</h1>
+        <div class="content">
+            <div class="row row-cols-1 row-cols-md-2">
+                <div class="col mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Divisão</h5>
+                            <p class="card-text">"Comprei 15 galinhas por 300 reias" Quanto ele pagou por cada galinha?</p>
+                            <input type="submit" value="Resposta" onclick="sumChicken()" class="btn btn-primary">
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Soma</h5>
+                            <p class="card-text">Maria foi a padaria e comprou 19 balas, 
+                                dpois voltou a padaria e comprou mais 45. Quantas balas Maria tem agora?</p>
+                                <input type="submit" value="Resposta" onclick="sumCandy()" class="btn btn-primary">
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Cálculo da área</h5>
+                            <p class="card-text">Para calcular a área de uma circunferência usamos a seguinte fórmula:
+                                area = pi x raio x raio. O valor de pi = 3.14, se o valor do meu raio é 2 qual a área da circunferência?</p>
+                                <input type="submit" value="Resposta" onclick="sumPi()" class="btn btn-primary">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="js/exercises.js"></script>
+</body>
+
+</html>

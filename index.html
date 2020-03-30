@@ -4,24 +4,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Cálculo Batimento Cardíaco</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/home.css">
+    <title>Quarentena Dev</title>
 </head>
 
 <body>
+    <!--Navbar-->
+    <nav class="navbar navbar-dark bg-dark">
+        <a href="#" class="nav-brand text-white">
+            <img src="img/alura-logo.jpg" class="img-logo" alt="Logo alura">
+            Quarentena Dev Alura
+        </a>
+        <a href="https://github.com/jeanhrsouza" class="nav-link justify-content-end text-white">
+            <img src="img/github.png" alt="Github" class="img-logo-git" srcset="">
+        </a>
+    </nav>
+
+    <!--Get-->
     <div class="container">
         <div class="content">
-            <img src="alura.png" alt="" srcset="">
-            <form action="">
-                <h1>Cálculo de batimentos cardíacos</h1>
-                <input type="text" id="name" class="input" placeholder="Digite o seu nome">
-                <input type="number" id="age" class="input" placeholder="Digite a sua idade">
-                <input type="submit" class="calc" value="Calcular batimentos">
-                <p id="total"></p>
-            </form>
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Heartbeat Calculator</h5>
+                            <p class="card-text">
+                                Calculate how many times you heart already beaten.
+                            </p>
+                            <a href="heartbeat.html" class="btn btn-primary">Calculate</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Other exercises</h5>
+                            <p class="card-text">
+                                Some excercises training alerts using JavaScript.
+                            </p>
+                            <a href="excercises.html" class="btn btn-primary">See exercises</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-    <script src="script.js"></script>
+
+
 </body>
 
 </html>

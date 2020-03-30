@@ -1,3 +1,16 @@
+.img-logo {
+    width: 50px;
+    border-radius: 25px;
+}
+.img-logo-git{
+    width: 100px;
+    border-radius: 25px;
+}
+
+nav a:link {
+    text-decoration: none;
+}
+
 .container {
     width: 100%;
     max-width: 1120px;
@@ -11,7 +24,7 @@
 
 .container .content {
     width: 100%;
-    padding: 96px;
+    padding: 100px;
     background: #4a4af8;
     box-shadow: 0 0 100px rgba(45, 42, 241, 0.692);
     border-radius: 8px;
@@ -21,32 +34,10 @@
     align-items: center;
 }
 
-img {    
-    width: 80%;
-    padding-right: 40px;
-}
-
-h1 {
-    color: whitesmoke;
-    font-weight: bold;
-    transition: 1s all;
-}
-
-h1:hover {
-    color: orange;
+.button {
     
-}
-
-.input {
-    display: block;
-    margin: 0 0 20px;
-    padding: 10px 34px;
-    width: 78%;
-}
-
-.calc {
     width: 100%;
-    padding: 10px 0;
+    padding: 10px 20px;
     background: orange;
     color: white;
     font-weight: bold;
@@ -58,12 +49,10 @@ h1:hover {
     text-align: center;
 }
 
-.calc:hover {
+.button:hover {
     background: darkorange;
 }
 
-p {
-    font-weight: bold;
-    color: white;
-    font-size: 20px;
+.button:link {
+    text-decoration: none; 
 }
